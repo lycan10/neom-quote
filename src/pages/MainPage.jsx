@@ -5,6 +5,7 @@ import messageSent from '../assets/message.svg'
 import done from '../assets/done.svg'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Link } from 'react-router-dom';
 
 const initialRows = [
   {
@@ -199,7 +200,10 @@ function MainPage() {
       <div className='app-container'>
         <div className='app-header'>
           <h1>Update Quote</h1>
-          <AiOutlineClose style={{cursor:'pointer'}}/>
+          <div style={{display: 'flex', justifyContent: 'center', alignItems:'center'}}>
+           <Link style={{color:'black', textDecoration:'none'}} to='/doc' > <h3>Documentation</h3> </Link>
+          <AiOutlineClose style={{cursor:'pointer', marginLeft:'1rem'}}/>
+          </div>
         </div>
         <div className='app-1'>
             <h3>Parameters</h3>

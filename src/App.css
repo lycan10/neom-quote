@@ -224,7 +224,35 @@ button{
   font-weight: 600;
   font-size: 14px;
 }
-
+.doc{
+  padding: 3rem;
+}
+.doc h1{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 23px;
+  margin-bottom: 1rem;
+}
+.doc h3{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 19px;
+  margin-bottom: 1rem;
+}
+.doc h5{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+.doc span{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+.doc p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
 @media screen and (max-width: 1500px) {
   .app-1-content{
     display: flex;
